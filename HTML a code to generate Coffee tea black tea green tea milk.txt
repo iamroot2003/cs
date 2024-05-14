@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Beverage Menu</title>
+</head>
+<body>
+
+<h2>Beverage Menu</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black Tea</li>
+      <li>Green Tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+</body>
+</html>

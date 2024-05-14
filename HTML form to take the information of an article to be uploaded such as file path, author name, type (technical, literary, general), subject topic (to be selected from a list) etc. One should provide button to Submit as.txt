@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>
+Article Information
+</title>
+</head>
+<body>
+<h1> Article Information </h1>
+<form>
+  <h3> File: <input type="text" id="file" name="file"></h3>
+  <h3> Author Name:<input type="text" id="author" name="author"> </h3>
+  <h3> Type:</h3>
+  <input type="radio" id="technical" name="type" value="technical">
+  <label for="technical">Technical</label>
+  <input type="radio" id="literary" name="type" value="literary">
+  <label for="literary">Literary</label>
+  <input type="radio" id="general" name="type" value="general">
+  <label for="general">General</label><br>
+
+  <h3>Subject: 
+<select id="subject" name="subject">
+    <option value="technology">Technology</option>
+    <option value="science">Science</option>
+    <option value="health">Health</option>
+    <option value="politics">Politics</option>
+    <option value="economy">Economy</option>
+  </select> 
+</h3><br>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+</body>
+</html>

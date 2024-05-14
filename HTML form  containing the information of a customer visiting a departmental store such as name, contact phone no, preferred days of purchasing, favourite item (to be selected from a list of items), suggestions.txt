@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>
+Feedback Form
+</title>
+</head>
+<body>
+<h1> Customer Feedback </h1>
+<form>
+<h3> Name: <input> </h3>
+<h3> Contact Number: <input type="Number"> </h3>
+<h3> Preferred days of purchasing:</h3>
+<h4> Monday <input type="checkbox"><br>
+Tuesday <input type="checkbox"><br>
+Wednesday <input type="checkbox"><br>
+Thursday <input type="checkbox"><br>
+Friday <input type="checkbox"><br>
+Saturday <input type="checkbox"><br>
+Sunday <input type="checkbox"> </h4>
+<h3> Favourite Items:</h3>
+<h4> Groceries <input type="checkbox"> <br> 
+Stationary <input type="checkbox"> <br> 
+Garments <input type="checkbox"> <br> 
+Footwear <input type="checkbox"> </h4>
+<h3> Suggestion: <textarea> </textarea> </h3>
+<h3> <input type="SUBMIT"> <input type="RESET"> </h3>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Company Logos</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td><img src="vodafone.png" alt="Vodafone"></td>
+      <td><img src="reliance.png" alt="Reliance"></td>
+      <td><img src="indicom.png" alt="Indicom"></td>
+      <td><img src="airtel.png" alt="Airtel"></td>
+    </tr>
+    <tr>
+      <td><img src="tata_docomo.png" alt="Tata Docomo"></td>
+      <td><img src="table_with_images.png" alt="Table With Images"></td>
+      <td><img src="aircel.png" alt="AIRCEL"></td>
+    </tr>
+    <tr>
+      <td><img src="uninor.png" alt="uninor"></td>
+      <td><img src="mtc.png" alt="MTC"></td>
+      <td><img src="hutch.png" alt="HUTCH"></td>
+      <td><img src="tata_docomo.png" alt="Tata Docomo"></td>
+    </tr>
+  </table>
+</body>
+</html>
+

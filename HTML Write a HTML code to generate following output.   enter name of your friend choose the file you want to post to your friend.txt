@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>
+generate following output
+</title>
+</head>
+<body>
+<form>
+<h3>Enter Name of your friend <input></h3>
+<h3>Choose the file you want to post to your friend</h3> <h3><input type="text"><input type="file"></h3>
+<h3>What does the file contain?</h3>
+<h3><input type="checkbox"> Image <input type="checkbox"> Source code <input type="checkbox"> Binary code </h3> <h3>You have Completed the Form <input type= "button" value= "Submit Query"> </h3>
+</form>
+</body>
+</html>

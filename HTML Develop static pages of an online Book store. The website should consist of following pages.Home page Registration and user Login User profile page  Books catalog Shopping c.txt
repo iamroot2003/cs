@@ -1,0 +1,154 @@
+Index.html
+<html>
+<head>
+    <title>Online Bookstore - Home</title>
+</head>
+<body>
+    <h1>Welcome to Our Online Bookstore</h1>
+    <p>Find your favorite books and enjoy reading!</p>
+    <nav>
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a> |
+        <a href="catalog.html">Browse Catalog</a>
+    </nav>
+</body>
+</html>
+
+Login.html
+<html>
+<head>
+    <title>Login - Online Bookstore</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="login_process.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <p>New user? <a href="register.html">Register here</a></p>
+</body>
+</html>
+
+Register.html
+<html>
+<head>
+    <title>Register - Online Bookstore</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form action="registration_process.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <p>Already have an account? <a href="login.html">Login</a></p>
+</body>
+</html>
+
+Profile.html
+<html>
+<head>
+    <title>User Profile - Online Bookstore</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <p>Welcome, [Username]!</p>
+    <p>Email: [Email]</p>
+    <nav>
+        <a href="catalog.html">Browse Catalog</a> |
+        <a href="cart.html">Shopping Cart</a> |
+        <a href="logout.html">Logout</a>
+    </nav>
+</body>
+</html>
+
+Catalog.html
+<html>
+<head>
+    <title>Books Catalog - Online Bookstore</title>
+</head>
+<body>
+    <h1>Books Catalog</h1>
+    <ul>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <!-- Add more books as needed -->
+    </ul>
+    <nav>
+        <a href="cart.html">Shopping Cart</a> |
+        <a href="logout.html">Logout</a>
+    </nav>
+</body>
+</html>
+
+Cart.html
+<html>
+<head>
+    <title>Shopping Cart - Online Bookstore</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <ul>
+        <li>Book 1 - $10</li>
+        <li>Book 2 - $15</li>
+        <!-- Add more items as needed -->
+    </ul>
+    <p>Total: $25</p>
+    <form action="payment.html">
+        <input type="submit" value="Proceed to Checkout">
+    </form>
+    <nav>
+        <a href="catalog.html">Continue Shopping</a> |
+        <a href="logout.html">Logout</a>
+    </nav>
+</body>
+</html>
+
+
+Payment.html
+<html>
+<head>
+    <title>Payment - Online Bookstore</title>
+</head>
+<body>
+    <h1>Payment</h1>
+    <form action="confirmation.html">
+        <label for="card_number">Credit Card Number:</label>
+        <input type="text" id="card_number" name="card_number" required><br><br>
+        <label for="expiry_date">Expiry Date:</label>
+        <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YY" required><br><br>
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required><br><br>
+        <input type="submit" value="Pay Now">
+    </form>
+</body>
+</html>
+
+
+
+
+
+Confirmation.html
+<html>
+<head>
+    <title>Order Confirmation - Online Bookstore</title>
+</head>
+<body>
+    <h1>Order Confirmation</h1>
+    <p>Your order has been successfully placed!</p>
+    <p>Order Number: 123456</p>
+    <p>Total Amount: $25</p>
+    <p>Estimated Delivery Date: [Date]</p>
+    <p>Thank you for shopping with us!</p>
+</body>
+</html>
