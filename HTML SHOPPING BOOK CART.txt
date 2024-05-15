@@ -1,0 +1,306 @@
+Home Page
+Code
+
+<html>
+<head>
+	<title>Online Book Store</title>
+</head>
+<body>
+	<header>
+		<h1>Online Book Store</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Catalog</a></li>
+				<li><a href="#">Cart</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Featured Books</h2>
+		<section>
+			<h3>Book Title</h3>
+			<img src="book1.jpg" alt="Book Title">
+			<p>Book description goes here.</p>
+			<a href="#">View Details</a>
+		</section>
+		<section>
+			<h3>Book Title</h3>
+			<img src="book2.jpg" alt="Book Title">
+			<p>Book description goes here.</p>
+			<a href="#">View Details</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Online Book Store</p>
+	</footer>
+</body>
+</html>
+
+Registration and user Login
+
+Code
+<html>
+<head>
+	<title>Online Book Store - Login/Register</title>
+</head>
+<body>
+	<header>
+		<h1>Online Book Store</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Catalog</a></li>
+				<li><a href="#">Cart</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Login</h2>
+			<form action="#" method="post">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+				<input type="submit" value="Login">
+			</form>
+			<p>Don't have an account? <a href="#">Register now</a>.</p>
+		</section>
+		<section>
+			<h2>Register</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+				<label for="confirm_password">Confirm Password:</label>
+				<input type="password" id="confirm_password" name="confirm_password">
+				<input type="submit" value="Register">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Online Book Store</p>
+	</footer>
+</body>
+</html>
+
+
+User profile page
+Code
+
+
+<html>
+<head>
+	<title>Online Book Store - User Profile</title>
+</head>
+<body>
+	<header>
+		<h1>Online Book Store</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Catalog</a></li>
+				<li><a href="#">Cart</a></li>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>User Profile</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" value="John Doe">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" value="john.doe@example.com">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" value="********">
+				<label for="confirm_password">Confirm Password:</label>
+				<input type="password" id="confirm_password" name="confirm_password" value="********">
+				<input type="submit" value="Update Profile">
+			</form>
+		</section>
+		<section>
+			<h2>Order History</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Order Number</th>
+						<th>Date</th>
+						<th>Amount</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1234</td>
+						<td>April 25, 2023</td>
+						<td>$50.00</td>
+					</tr>
+					<tr>
+						<td>5678</td>
+						<td>April 23, 2023</td>
+						<td>$35.00</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Online Book Store</p>
+	</footer>
+</body>
+</html>
+
+
+Books Catalog
+Code
+
+<html>
+<head>
+  <title>Book Catalog</title>
+</head>
+<body>
+  <h1>Book Catalog</h1>
+
+  <form>
+    <h2>Search Books</h2>
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title"><br>
+
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author"><br>
+
+    <label for="isbn">ISBN:</label>
+    <input type="text" id="isbn" name="isbn"><br>
+
+    <input type="submit" value="Search">
+    <input type="reset" value="Reset">
+  </form>
+
+  <hr>
+
+  <h2>Results</h2>
+  <ul>
+    <li>
+      <h3>The Great Gatsby</h3>
+      <p>by F. Scott Fitzgerald</p>
+      <p>ISBN: 978-0743273565</p>
+      <p>American classic about the decadent and disillusioned society of the 1920s.</p>
+    </li>
+    <li>
+      <h3>To Kill a Mockingbird</h3>
+      <p>by Harper Lee</p>
+      <p>ISBN: 978-0060935467</p>
+      <p>A Pulitzer Prize-winning novel set in the South during the 1930s, exploring themes of racial injustice and coming-of-age.</p>
+    </li>
+    <li>
+      <h3>The Catcher in the Rye</h3>
+      <p>by J.D. Salinger</p>
+      <p>ISBN: 978-0316769488</p>
+      <p>A classic novel about teenage angst and alienation in post-World War II America.</p>
+    </li>
+  </ul>
+</body>
+</html>
+
+
+
+Shopping Cart
+Code
+
+<html>
+<head>
+  <title>Shopping Cart</title>
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+
+  <h2>Cart Items</h2>
+  <ul>
+    <li>
+      <h3>Product Name</h3>
+      <p>Price: $99.99</p>
+      <p>Quantity: 1</p>
+      <p><button>Remove Item</button></p>
+    </li>
+    <li>
+      <h3>Another Product</h3>
+      <p>Price: $49.99</p>
+      <p>Quantity: 3</p>
+      <p><button>Remove Item</button></p>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h2>Add Item</h2>
+  <form>
+    <label for="name">Product Name:</label>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price" step="0.01"><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" value="1"><br>
+
+    <input type="submit" value="Add to Cart">
+    <input type="reset" value="Clear">
+  </form>
+
+  <hr>
+
+  <h2>Checkout</h2>
+  <p>Total Price: $249.96</p>
+  <button>Checkout</button>
+</body>
+</html>
+
+
+Payment by credit card Order Conformation
+Code
+
+<html>
+<head>
+  <title>Payment and Order Confirmation</title>
+</head>
+<body>
+  <h1>Payment and Order Confirmation</h1>
+
+  <h2>Payment Information</h2>
+  <form>
+    <label for="cardnumber">Credit Card Number:</label>
+    <input type="text" id="cardnumber" name="cardnumber" placeholder="1234 5678 9012 3456"><br>
+
+    <label for="cardname">Cardholder Name:</label>
+    <input type="text" id="cardname" name="cardname"><br>
+
+    <label for="expirydate">Expiry Date:</label>
+    <input type="text" id="expirydate" name="expirydate" placeholder="MM/YY"><br>
+
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv" placeholder="123"><br>
+
+    <input type="submit" value="Submit Payment">
+    <input type="reset" value="Clear">
+  </form>
+
+  <hr>
+
+  <h2>Order Confirmation</h2>
+  <p>Thank you for your purchase! Your order details are:</p>
+  <ul>
+    <li>Product Name: Example Product</li>
+    <li>Quantity: 1</li>
+    <li>Price: $99.99</li>
+  </ul>
+  <p>We have sent a confirmation email to your email address.</p>
+</body>
+</html>
+
+
